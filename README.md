@@ -2,7 +2,7 @@
 
 Author : Yudha Romadhon
 
-Usege : php logtools.php <source file path> | [[-t <text/json|json_nginx>] | [-o <destination file path>]][/code]
+Usege : php|python logtools.php|py <source file path> | [[-t <text/json|json_nginx>] | [-o <destination file path>]]
 
 1. [t] => file types available for conversion.
 - json_nginx_error (Convert nginx log error parse byparamater)
@@ -12,6 +12,6 @@ Usege : php logtools.php <source file path> | [[-t <text/json|json_nginx>] | [-o
 2. [o] => Destination file output result.
 3. [h] => Display guid usage.
 
-Example : python logtools.py /var/log/ngin/access.log -t json_nginx_error -o mystorage/result.json.
+Example : php|python logtools.php|py /var/log/ngin/access.log -t json_nginx_error -o mystorage/result.json.
 
 This tools is availbe in 2 version programming language, PHP and Python 
