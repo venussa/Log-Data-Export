@@ -1,5 +1,7 @@
 # Log-Data-Export
 
+Author : Yudha Romadhon
+
 Usege : php logtools.php <source file path> | [[-t <text/json|json_nginx>] | [-o <destination file path>]][/code]
 
 1. [t] => file types available for conversion.
