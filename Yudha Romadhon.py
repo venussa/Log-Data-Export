@@ -89,7 +89,7 @@ class LogConvert():
 
 def display_help():
     print(""" 
- Usege : php logtools.php <source file path> | [[-t <text/json|json_nginx>] | [-o <destination file path>]]
+ Usege : python logtools.py <source file path> | [[-t <text/json|json_nginx>] | [-o <destination file path>]]
 
  t             file types available for conversion.
                 - json_nginx_error    (Convert nginx log error parse byparamater)
