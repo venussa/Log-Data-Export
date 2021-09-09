@@ -13,3 +13,5 @@ Usege : php logtools.php <source file path> | [[-t <text/json|json_nginx>] | [-o
 3. [h] => Display guid usage.
 
 Example : python logtools.py /var/log/ngin/access.log -t json_nginx_error -o mystorage/result.json.
+
+This tools is availbe in 2 version programming language, PHP and Python 
